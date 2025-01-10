@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.5s;
+}
+
+.slider-container {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.squares-container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    transition: all 0.5s;
+}
+
+.red {
+    background-color: red;
+    left: 0;
+    top: 0;
+}
+
+.blue {
+    background-color: blue;
+    right: 0;
+    bottom: 0;
+}
+
+body.bg-gray {
+    background-color: gray;
+}
+
+body.bg-black {
+    background-color: black;
+}
+
+.squares-container.position-1 .red {
+    left: 100px;  
+}
+
+.squares-container.position-1 .blue {
+    right: 100px;  
+}
+
+.squares-container.position-2 .red {
+    left: 200px; 
+}
+
+.squares-container.position-2 .blue {
+    right: 200px;  
+}
