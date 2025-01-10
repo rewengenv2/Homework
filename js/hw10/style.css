@@ -1,0 +1,41 @@
+.traffic-light {
+    width: 100px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+#red.light.on {
+    background-color: red;
+}
+
+#yellow.light.on {
+    background-color: yellow;
+}
+
+#green.light.on {
+    background-color: green;
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
